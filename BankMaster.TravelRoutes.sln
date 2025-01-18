@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-PresentationLayer", "0-PresentationLayer", "{F7F3E7CD-857F-4DB5-AB34-F43BA58C0414}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-BusinessLayer", "1-BusinessLayer", "{03984C3C-D55E-4E77-ADD4-7A26D569E517}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-DataLayer", "2-DataLayer", "{A0A6D8F9-519C-4EEB-9273-160A05DE8450}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-TestLayer", "3-TestLayer", "{F45D837F-0B62-437F-ABE0-2A2D498407D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMaster.TravelRoutes.Console", "src\BankMaster.TravelRoutes.Console\BankMaster.TravelRoutes.Console.csproj", "{B7855E94-B004-4519-A624-0E6E9EEC5796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMaster.TravelRoutes.BLL", "src\BankMaster.TravelRoutes.BLL\BankMaster.TravelRoutes.BLL.csproj", "{37935970-6CBC-4412-A701-986B6348A8F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMaster.TravelRoutes.DAL", "src\BankMaster.TravelRoutes.DAL\BankMaster.TravelRoutes.DAL.csproj", "{2957B24B-9EC6-4A9C-AEA8-AC550E1B2F87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankMaster.TravelRoutes.TEST", "src\BankMaster.TravelRoutes.TEST\BankMaster.TravelRoutes.TEST.csproj", "{A87D877F-399A-4369-ABDB-7979FA6A05A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7855E94-B004-4519-A624-0E6E9EEC5796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7855E94-B004-4519-A624-0E6E9EEC5796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7855E94-B004-4519-A624-0E6E9EEC5796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7855E94-B004-4519-A624-0E6E9EEC5796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37935970-6CBC-4412-A701-986B6348A8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37935970-6CBC-4412-A701-986B6348A8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37935970-6CBC-4412-A701-986B6348A8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37935970-6CBC-4412-A701-986B6348A8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2957B24B-9EC6-4A9C-AEA8-AC550E1B2F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2957B24B-9EC6-4A9C-AEA8-AC550E1B2F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2957B24B-9EC6-4A9C-AEA8-AC550E1B2F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2957B24B-9EC6-4A9C-AEA8-AC550E1B2F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87D877F-399A-4369-ABDB-7979FA6A05A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87D877F-399A-4369-ABDB-7979FA6A05A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87D877F-399A-4369-ABDB-7979FA6A05A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87D877F-399A-4369-ABDB-7979FA6A05A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7855E94-B004-4519-A624-0E6E9EEC5796} = {F7F3E7CD-857F-4DB5-AB34-F43BA58C0414}
+		{37935970-6CBC-4412-A701-986B6348A8F9} = {03984C3C-D55E-4E77-ADD4-7A26D569E517}
+		{2957B24B-9EC6-4A9C-AEA8-AC550E1B2F87} = {A0A6D8F9-519C-4EEB-9273-160A05DE8450}
+		{A87D877F-399A-4369-ABDB-7979FA6A05A4} = {F45D837F-0B62-437F-ABE0-2A2D498407D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E13ACA21-E4C4-4D10-9039-A299BF40C9C1}
+	EndGlobalSection
+EndGlobal
